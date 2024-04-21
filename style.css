@@ -1,0 +1,52 @@
+/* Google Font */
+h1,h2,h3,h4,h5,h6{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 500;
+}
+p{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    color: gray;
+}
+
+/* Link Hover */
+a{
+    transition: 0.5s;
+}
+a:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+.contrainer .img-size img{
+    width: 60%;
+}
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* Button Hover Design */
+.btn{
+    background-color: #289BDE;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: white;
+    color: blue;
+    transform: scale(1.1);
+}
+.btn-register{
+    background-color: white;
+    color: blue;
+}
+
+/* Join Section Background Color */
+.bg-join{
+    background-color: #289BDE;
+}
+
+/* Navigation Margin */
+@media screen and (min-width:991px) {
+    .nav-mar{
+        margin-left: 25%;
+    }
+}
